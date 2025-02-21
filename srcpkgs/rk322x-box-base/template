@@ -1,0 +1,11 @@
+# Template file for 'rk322x-box-base'
+pkgname=rk322x-box-base
+version=0.1
+revision=1
+archs="aarch64*"
+build_style=meta
+depends="u-boot-menu linux6.12 dracut" # rk322x-box-uboot
+short_desc="Void Linux Generic RK322x platform package"
+maintainer="Estevan Castilho <tevo+void@riajuu.net>"
+license="Public Domain"
+homepage="https://www.voidlinux.org"
